@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>algorithms.mazeGenerators.Maze</OriginalElement>
+  <nodes>
+    <node x="1367.4124295491142" y="300.0">Server.Server</node>
+    <node x="1845.8020229468596" y="580.0">algorithms.mazeGenerators.MyMazeGenerator</node>
+    <node x="195.27006843800302" y="470.0">algorithms.search.DepthFirstSearch</node>
+    <node x="1492.8020229468598" y="300.0">algorithms.search.AState</node>
+    <node x="570.4124295491141" y="300.0">Client.Client</node>
+    <node x="2424.9770229468595" y="470.0">View.AboutController</node>
+    <node x="1634.8020229468596" y="470.0">algorithms.mazeGenerators.AMazeGenerator</node>
+    <node x="2263.6140599838964" y="580.0">View.MyViewController</node>
+    <node x="2122.4770229468595" y="300.0">Model.IModel</node>
+    <node x="2577.9770229468595" y="470.0">View.MazeDisplayer</node>
+    <node x="2277.9770229468595" y="470.0">View.HelpController</node>
+    <node x="1637.3020229468593" y="300.0">algorithms.mazeGenerators.IMazeGenerator</node>
+    <node x="0.0" y="580.0">algorithms.search.BestFirstSearch</node>
+    <node x="1815.4270229468596" y="470.0">algorithms.search.MazeState</node>
+    <node x="28.270068438003136" y="470.0">algorithms.search.BreadthFirstSearch</node>
+    <node x="245.25341183574858" y="80.0">algorithms.search.Solution</node>
+    <node x="104.27006843800314" y="300.0">algorithms.search.ASearchingAlgorithm</node>
+    <node x="1616.3020229468593" y="190.0">algorithms.mazeGenerators.Maze</node>
+    <node x="159.27006843800314" y="580.0">Server.properties</node>
+    <node x="1142.4124295491142" y="300.0">IO.MyDecompressorInputStream</node>
+    <node x="348.4124295491141" y="300.0">IO.MyCompressorOutputStream</node>
+    <node x="1504.8020229468596" y="580.0">algorithms.search.SearchableMaze</node>
+    <node x="2371.8640599838964" y="300.0">View.IView</node>
+    <node x="1806.337429549114" y="80.0">algorithms.mazeGenerators.Position</node>
+    <node x="1659.8020229468596" y="580.0">algorithms.mazeGenerators.SimpleMazeGenerator</node>
+    <node x="1096.3140599838964" y="470.0">Model.MyModel</node>
+    <node x="1546.7603562801928" y="0.0">java.io.Serializable</node>
+    <node x="522.1624295491141" y="190.0">Client.IClientStrategy</node>
+    <node x="62.520068438003136" y="190.0">algorithms.search.ISearchingAlgorithm</node>
+    <node x="1973.9770229468595" y="470.0">View.PropertiesDisplay</node>
+    <node x="990.3209440418672" y="190.0">Server.IServerStrategy</node>
+    <node x="668.4124295491141" y="300.0">Server.ServerStrategySolveSearchProblem</node>
+    <node x="1479.8020229468598" y="470.0">algorithms.search.ISearchable</node>
+    <node x="2133.9770229468595" y="470.0">ViewModel.MyViewModel</node>
+    <node x="921.4124295491141" y="300.0">Server.ServerStrategyGenerateMaze</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Model.MyModel" target="Server.Server">
+      <point x="15.3125" y="-15.0" />
+      <point x="1160.6265599838964" y="390.0" />
+      <point x="1427.4124295491142" y="390.0" />
+      <point x="20.0" y="15.0" />
+    </edge>
+    <edge source="Model.MyModel" target="Client.Client">
+      <point x="-15.3125" y="-15.0" />
+      <point x="1130.0015599838964" y="370.0" />
+      <point x="628.9124295491141" y="370.0" />
+      <point x="19.5" y="15.0" />
+    </edge>
+    <edge source="View.MyViewController" target="View.MazeDisplayer">
+      <point x="63.89999999999998" y="-15.0" />
+      <point x="2398.514059983897" y="560.0" />
+      <point x="2640.9770229468595" y="560.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="View.MyViewController" target="View.HelpController">
+      <point x="-7.100000000000023" y="-15.0" />
+      <point x="2327.514059983897" y="520.0" />
+      <point x="2309.4770229468595" y="520.0" />
+      <point x="-31.5" y="15.0" />
+    </edge>
+    <edge source="View.AboutController" target="View.IView">
+      <point x="0.0" y="-15.0" />
+      <point x="2491.4770229468595" y="450.0" />
+      <point x="2435.19739331723" y="450.0" />
+      <point x="25.333333333333314" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.BreadthFirstSearch" target="algorithms.search.Solution">
+      <point x="-48.666666666666515" y="-15.0" />
+      <point x="52.60340177133662" y="450.0" />
+      <point x="50.31173510466965" y="450.0" />
+      <point x="50.31173510466965" y="150.0" />
+      <point x="260.58674516908206" y="150.0" />
+      <point x="-30.666666666666515" y="15.0" />
+    </edge>
+    <edge source="algorithms.mazeGenerators.Maze" target="algorithms.mazeGenerators.Position">
+      <point x="25.333333333333258" y="-15.0" />
+      <point x="1679.6353562801928" y="170.0" />
+      <point x="1840.087429549114" y="170.0" />
+      <point x="-11.25" y="15.0" />
+    </edge>
+    <edge source="algorithms.mazeGenerators.AMazeGenerator" target="algorithms.mazeGenerators.IMazeGenerator">
+      <point x="-1.1368683772161603E-13" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="algorithms.mazeGenerators.MyMazeGenerator" target="algorithms.mazeGenerators.AMazeGenerator">
+      <point x="-36.25" y="-15.0" />
+      <point x="1882.0520229468596" y="550.0" />
+      <point x="1748.9686896135263" y="550.0" />
+      <point x="45.66666666666663" y="15.0" />
+    </edge>
+    <edge source="Server.ServerStrategySolveSearchProblem" target="Server.IServerStrategy">
+      <point x="58.25" y="-15.0" />
+      <point x="843.1624295491141" y="280.0" />
+      <point x="1011.6542773752004" y="280.0" />
+      <point x="-42.66666666666674" y="15.0" />
+    </edge>
+    <edge source="Model.MyModel" target="Server.ServerStrategySolveSearchProblem">
+      <point x="-9.1875" y="-15.0" />
+      <point x="1136.1265599838964" y="360.0" />
+      <point x="784.9124295491141" y="360.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.SearchableMaze" target="algorithms.mazeGenerators.Maze">
+      <point x="45.0" y="-15.0" />
+      <point x="1617.3020229468596" y="550.0" />
+      <point x="1610.3020229468596" y="550.0" />
+      <point x="1610.3020229468596" y="280.0" />
+      <point x="1649.5520229468593" y="280.0" />
+      <point x="-4.75" y="15.0" />
+    </edge>
+    <edge source="View.HelpController" target="View.IView">
+      <point x="0.0" y="-15.0" />
+      <point x="2340.9770229468595" y="450.0" />
+      <point x="2384.5307266505633" y="450.0" />
+      <point x="-25.333333333333343" y="15.0" />
+    </edge>
+    <edge source="Model.MyModel" target="algorithms.search.Solution">
+      <point x="-39.8125" y="-15.0" />
+      <point x="1105.5015599838964" y="410.0" />
+      <point x="337.9124295491141" y="410.0" />
+      <point x="337.9124295491141" y="150.0" />
+      <point x="311.6978562801929" y="150.0" />
+      <point x="20.444444444444343" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.ASearchingAlgorithm" target="algorithms.search.ISearchingAlgorithm">
+      <point x="-40.25" y="-15.0" />
+      <point x="144.52006843800314" y="280.0" />
+      <point x="140.52006843800314" y="280.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.BestFirstSearch" target="algorithms.search.BreadthFirstSearch">
+      <point x="31.75" y="-15.0" />
+      <point x="95.25" y="560.0" />
+      <point x="101.27006843800314" y="560.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="algorithms.mazeGenerators.Maze" target="java.io.Serializable">
+      <point x="-25.333333333333258" y="-15.0" />
+      <point x="1628.9686896135263" y="60.0" />
+      <point x="1614.8853562801928" y="60.0" />
+      <point x="13.625" y="15.0" />
+    </edge>
+    <edge source="algorithms.mazeGenerators.IMazeGenerator" target="algorithms.mazeGenerators.Maze">
+      <point x="-1.1368683772161603E-13" y="-15.0" />
+      <point x="1703.3020229468593" y="280.0" />
+      <point x="1659.0520229468593" y="280.0" />
+      <point x="4.75" y="15.0" />
+    </edge>
+    <edge source="Server.properties" target="algorithms.mazeGenerators.AMazeGenerator">
+      <point x="25.5" y="-15.0" />
+      <point x="235.77006843800314" y="560.0" />
+      <point x="1657.6353562801928" y="560.0" />
+      <point x="-45.66666666666663" y="15.0" />
+    </edge>
+    <edge source="Client.Client" target="Client.IClientStrategy">
+      <point x="0.0" y="-15.0" />
+      <point x="609.4124295491141" y="280.0" />
+      <point x="615.9124295491141" y="280.0" />
+      <point x="31.25" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.SearchableMaze" target="algorithms.search.ISearchable">
+      <point x="-45.0" y="-15.0" />
+      <point x="1527.3020229468596" y="550.0" />
+      <point x="1534.3020229468598" y="550.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="algorithms.mazeGenerators.MyMazeGenerator" target="algorithms.mazeGenerators.Maze">
+      <point x="36.25" y="-15.0" />
+      <point x="1954.5520229468596" y="260.0" />
+      <point x="1678.0520229468593" y="260.0" />
+      <point x="23.75" y="15.0" />
+    </edge>
+    <edge source="View.MyViewController" target="View.IView">
+      <point x="21.299999999999955" y="-15.0" />
+      <point x="2355.9140599838965" y="530.0" />
+      <point x="2414.4770229468595" y="530.0" />
+      <point x="2414.4770229468595" y="450.0" />
+      <point x="2409.8640599838964" y="450.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.ISearchingAlgorithm" target="algorithms.search.Solution">
+      <point x="0.0" y="-15.0" />
+      <point x="140.52006843800314" y="160.0" />
+      <point x="270.80896739130424" y="160.0" />
+      <point x="-20.444444444444343" y="15.0" />
+    </edge>
+    <edge source="Server.Server" target="Server.IServerStrategy">
+      <point x="0.0" y="-15.0" />
+      <point x="1407.4124295491142" y="280.0" />
+      <point x="1096.9876107085338" y="280.0" />
+      <point x="42.66666666666674" y="15.0" />
+    </edge>
+    <edge source="Server.properties" target="algorithms.search.ASearchingAlgorithm">
+      <point x="-25.5" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.ASearchingAlgorithm" target="algorithms.search.Solution">
+      <point x="40.25" y="-15.0" />
+      <point x="225.02006843800314" y="280.0" />
+      <point x="229.02006843800302" y="280.0" />
+      <point x="229.02006843800302" y="170.0" />
+      <point x="281.0311896135264" y="170.0" />
+      <point x="-10.222222222222172" y="15.0" />
+    </edge>
+    <edge source="Model.MyModel" target="Client.IClientStrategy">
+      <point x="-27.5625" y="-15.0" />
+      <point x="1117.7515599838964" y="390.0" />
+      <point x="559.9124295491141" y="390.0" />
+      <point x="559.9124295491141" y="280.0" />
+      <point x="553.4124295491141" y="280.0" />
+      <point x="-31.25" y="15.0" />
+    </edge>
+    <edge source="Server.ServerStrategySolveSearchProblem" target="algorithms.search.Solution">
+      <point x="-58.25" y="-15.0" />
+      <point x="726.6624295491141" y="140.0" />
+      <point x="321.9200785024151" y="140.0" />
+      <point x="30.666666666666515" y="15.0" />
+    </edge>
+    <edge source="Model.IModel" target="algorithms.mazeGenerators.Maze">
+      <point x="-21.25" y="-15.0" />
+      <point x="2143.7270229468595" y="250.0" />
+      <point x="1687.5520229468593" y="250.0" />
+      <point x="33.25" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.BestFirstSearch" target="algorithms.search.Solution">
+      <point x="-31.75" y="-15.0" />
+      <point x="31.75" y="560.0" />
+      <point x="17.770068438003136" y="560.0" />
+      <point x="17.770068438003136" y="140.0" />
+      <point x="250.3645229468599" y="140.0" />
+      <point x="-40.88888888888869" y="15.0" />
+    </edge>
+    <edge source="Model.IModel" target="algorithms.search.Solution">
+      <point x="21.25" y="-15.0" />
+      <point x="2186.2270229468595" y="130.0" />
+      <point x="332.14230072463727" y="130.0" />
+      <point x="40.88888888888869" y="15.0" />
+    </edge>
+    <edge source="View.MyViewController" target="View.AboutController">
+      <point x="35.5" y="-15.0" />
+      <point x="2370.1140599838964" y="540.0" />
+      <point x="2458.2270229468595" y="540.0" />
+      <point x="-33.25" y="15.0" />
+    </edge>
+    <edge source="Model.MyModel" target="algorithms.search.AState">
+      <point x="39.8125" y="-15.0" />
+      <point x="1185.1265599838964" y="440.0" />
+      <point x="1517.7020229468599" y="440.0" />
+      <point x="-16.59999999999991" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.MazeState" target="algorithms.search.AState">
+      <point x="-34.666666666666515" y="-15.0" />
+      <point x="1832.760356280193" y="430.0" />
+      <point x="1567.5020229468596" y="430.0" />
+      <point x="33.19999999999982" y="15.0" />
+    </edge>
+    <edge source="algorithms.mazeGenerators.SimpleMazeGenerator" target="algorithms.mazeGenerators.AMazeGenerator">
+      <point x="-41.500000000000114" y="-15.0" />
+      <point x="1701.3020229468593" y="560.0" />
+      <point x="1703.3020229468596" y="560.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Model.MyModel" target="IO.MyDecompressorInputStream">
+      <point x="3.0625" y="-15.0" />
+      <point x="1148.3765599838964" y="370.0" />
+      <point x="1244.9124295491142" y="370.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.SearchableMaze" target="algorithms.search.AState">
+      <point x="0.0" y="-15.0" />
+      <point x="1572.3020229468596" y="550.0" />
+      <point x="1599.3020229468596" y="550.0" />
+      <point x="1599.3020229468596" y="440.0" />
+      <point x="1550.9020229468597" y="440.0" />
+      <point x="16.59999999999991" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.BreadthFirstSearch" target="algorithms.search.AState">
+      <point x="48.666666666666515" y="-15.0" />
+      <point x="149.93673510466965" y="430.0" />
+      <point x="1501.10202294686" y="430.0" />
+      <point x="-33.19999999999982" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.BreadthFirstSearch" target="algorithms.search.ASearchingAlgorithm">
+      <point x="0.0" y="-15.0" />
+      <point x="101.27006843800314" y="450.0" />
+      <point x="131.10340177133662" y="450.0" />
+      <point x="-53.666666666666515" y="15.0" />
+    </edge>
+    <edge source="algorithms.mazeGenerators.SimpleMazeGenerator" target="algorithms.mazeGenerators.Maze">
+      <point x="41.499999999999886" y="-15.0" />
+      <point x="1784.3020229468593" y="560.0" />
+      <point x="1782.3020229468596" y="560.0" />
+      <point x="1782.3020229468596" y="270.0" />
+      <point x="1668.5520229468593" y="270.0" />
+      <point x="14.25" y="15.0" />
+    </edge>
+    <edge source="Model.MyModel" target="Model.IModel">
+      <point x="45.9375" y="-15.0" />
+      <point x="1191.2515599838964" y="450.0" />
+      <point x="2136.643689613526" y="450.0" />
+      <point x="-28.33333333333337" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.DepthFirstSearch" target="algorithms.search.ASearchingAlgorithm">
+      <point x="-34.25" y="-15.0" />
+      <point x="229.52006843800302" y="420.0" />
+      <point x="238.43673510466965" y="420.0" />
+      <point x="53.666666666666515" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.Solution" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="291.2534118357486" y="50.0" />
+      <point x="1560.3853562801928" y="50.0" />
+      <point x="-40.875" y="15.0" />
+    </edge>
+    <edge source="Server.ServerStrategyGenerateMaze" target="Server.IServerStrategy">
+      <point x="0.0" y="-15.0" />
+      <point x="1021.9124295491141" y="280.0" />
+      <point x="1054.3209440418673" y="280.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="View.MyViewController" target="ViewModel.MyViewModel">
+      <point x="-35.5" y="-15.0" />
+      <point x="2299.1140599838964" y="540.0" />
+      <point x="2164.9770229468595" y="540.0" />
+      <point x="-31.0" y="15.0" />
+    </edge>
+    <edge source="Model.MyModel" target="algorithms.mazeGenerators.Maze">
+      <point x="27.5625" y="-15.0" />
+      <point x="1172.8765599838964" y="410.0" />
+      <point x="1464.0374295491142" y="410.0" />
+      <point x="1464.0374295491142" y="260.0" />
+      <point x="1630.5520229468593" y="260.0" />
+      <point x="-23.75" y="15.0" />
+    </edge>
+    <edge source="View.MyViewController" target="View.PropertiesDisplay">
+      <point x="-49.700000000000045" y="-15.0" />
+      <point x="2284.9140599838965" y="550.0" />
+      <point x="2078.9770229468595" y="550.0" />
+      <point x="35.0" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.MazeState" target="algorithms.mazeGenerators.Position">
+      <point x="0.0" y="-15.0" />
+      <point x="1867.4270229468596" y="440.0" />
+      <point x="1879.2603562801928" y="440.0" />
+      <point x="1879.2603562801928" y="170.0" />
+      <point x="1862.587429549114" y="170.0" />
+      <point x="11.25" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.AState" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="1534.3020229468598" y="240.0" />
+      <point x="1513.795138888889" y="240.0" />
+      <point x="1513.795138888889" y="60.0" />
+      <point x="1587.6353562801928" y="60.0" />
+      <point x="-13.625" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.DepthFirstSearch" target="algorithms.search.Solution">
+      <point x="34.25" y="-15.0" />
+      <point x="298.020068438003" y="170.0" />
+      <point x="291.2534118357486" y="170.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Model.MyModel" target="Server.ServerStrategyGenerateMaze">
+      <point x="-3.0625" y="-15.0" />
+      <point x="1142.2515599838964" y="350.0" />
+      <point x="1021.9124295491141" y="350.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="algorithms.mazeGenerators.Position" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="1851.337429549114" y="60.0" />
+      <point x="1642.1353562801928" y="60.0" />
+      <point x="40.875" y="15.0" />
+    </edge>
+    <edge source="Model.MyModel" target="IO.MyCompressorOutputStream">
+      <point x="-33.6875" y="-15.0" />
+      <point x="1111.6265599838964" y="400.0" />
+      <point x="448.9124295491141" y="400.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="ViewModel.MyViewModel" target="Model.IModel">
+      <point x="-31.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="algorithms.search.ISearchable" target="algorithms.search.AState">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7855421686746988" x="733.7085889570552" y="346.90542551241543" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
